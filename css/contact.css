@@ -1,0 +1,127 @@
+.contact_inner {
+  margin: 70px 5% 5% auto;
+  max-width: 90%;
+  position: relative;
+}
+
+.contact_form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact_box {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact_form_box1 {
+  height: 30px;
+  width: 60%;
+}
+
+.contact_form_box2 {
+  height: 30px;
+  width: 60%;
+}
+
+.contact_box._area {
+  margin-bottom: 0;
+}
+
+.contact_form_ttl {
+  width: 46%;
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  position: relative;
+  margin-top: 10px;
+}
+
+.contact_form_ttl2 {
+  width: 46%;
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  position: relative;
+  margin-top: 10px;
+}
+
+.contact_form_ttl:after {
+  content: "必須";
+  position: absolute;
+  right: 50px;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  text-align: center;
+  width: 96px;
+  line-height: 32px;
+  font-size: 15px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  bottom: 1px;
+}
+
+.contact_txtarea {
+  width: 60%;
+  height: 200px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  padding: 7px;
+}
+
+.contact_btn {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto 20px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  background: orange;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact_btn:hover {
+  color: #000;
+  background: yellow;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .contact_img {
+  background-image: none;
+  height: 0;
+}
+
+.contact_item {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.contact_box {
+  display: block;
+}
+
+.contact_form_ttl::after {
+  position: relative;
+  left: 10px;
+}
+
+.contact_form_box1,
+.contact_form_box2 {
+  width: 90%;
+  height: 35px;
+}
+
+.contact_txtarea {
+  width: 90%;
+}
+
+}

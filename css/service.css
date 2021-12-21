@@ -1,0 +1,252 @@
+.service {
+  position: relative;
+  max-width: 90%;
+  margin: 100px auto;
+}
+.section_ttl {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #ff5f17;
+  margin-bottom: 20px;
+}
+
+.section_ttl small {
+  border-left: solid 8px #ffcc00;
+  padding-right: 10px;
+}
+
+.service_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.service_item {
+  position: relative;
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px "ddd";
+  margin: 3% 0;
+}
+
+.service_item._service1 {
+  margin-left: 150px;
+}
+
+.service_item._service4 {
+  margin-right: 150px;
+}
+
+.service_img {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.service_img::after {
+  content: "";
+  position: absolute;
+  width: 130%;
+  height: 500px;
+  background: #ddd;
+  z-index: -1;
+  -webkit-transform: rotate(13deg);
+  transform: rotate(13deg);
+  left: 80%;
+}
+
+.service_img._service {
+  background: url(../img/IMG_2367.JPG) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 50%;
+}
+
+.service_img._service2 {
+  background: url(../img/IMG_2543.PNG) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 50%;
+}
+
+.service_img._service3 {
+  background: url(../img/IMG_2544.JPG) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 50%;
+}
+
+.service_img._service4 {
+  background: url(../img/IMG_2545.PNG) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 50%;
+}
+
+.service_item2 {
+  position: relative;
+  width: 44%;
+  height: 400px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px "ddd";
+  margin: 3% 0;
+}
+
+.service_item2._service1 {
+  margin-left: 130px;
+}
+
+.service_item3._service4 {
+  margin-right: 130px;
+}
+
+.service_img2 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.service_img2::after {
+  content: "";
+  position: absolute;
+  width: 130%;
+  height: 500px;
+}
+
+.service_img2._service {
+  background: url(../img/IMG_2374.jpg) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.service_img2._service2 {
+  background: url(../img/JOYSOUND-MAX2.jpeg) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.service_img2._service3 {
+  background: url(../img/livedam_ai.png) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.service_img2._service4 {
+  background: url(../img/livedam_ss.png) no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.service_item3 {
+  position: relative;
+  width: 44%;
+  height: 500px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px "ddd";
+  margin: 3% 0;
+}
+
+.service_inner_txt {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+}
+
+.service_inner_txt h3 {
+  font-size: 30px;
+  color: #ff5f17;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .service_item {
+  display: block;
+  width: 70%;
+  margin: 0 auto 10%;
+  height: 120%;
+}
+
+.service_list {
+  display: block;
+}
+
+
+.service_item._service1,
+.service_item._service2,
+.service_item._service3,
+.service_item._service4 {
+  bottom: 0;
+  margin: 0 auto 10%;
+}
+
+.service_item2 {
+  width: 100%;
+  height: 600px;
+}
+
+.service_item3 {
+  width: 105%;
+  height: 800px;
+}
+
+.service_item2._service1,
+.service_item2._service2,
+.service_item3._service3,
+.service_item3._service4 {
+  bottom: 0;
+  margin: 0 auto 10%;
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+.service_item2 {
+  width: 100%;
+  height: 230px;
+}
+
+.service_item3 {
+  width: 105%;
+  height: 280px;
+}
+}
+
+@media screen and (max-width: 375px){
+
+  .service_item {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px "ddd";
+  margin: 3% 0;
+}
+
+.service_img::after {
+  left: 65%;
+}
+
+}

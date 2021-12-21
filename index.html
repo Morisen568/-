@@ -16,6 +16,7 @@
     <link rel="apple-touch-icon" sizes="180×180" href="img/logo.png">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/common1.css">
+    <link rel="stylesheet" type="text/css" href="css/common2.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
   <body>
@@ -27,7 +28,9 @@
             <li><a href="index.html" class="color">HOME</a></li>
             <li><a href="html/service.html">サービス</a></li>
             <li><a href="html/price.html">料金表</a></li>
-            <li><a href="html/detail.html">詳細・アクセス</a></li>
+            <li><a href="html/detal.html">詳細・アクセス</a></li>
+            <li><a href="html/news.html">お知らせ</a></li>
+            <li><a href="html/contact.html">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>
@@ -37,15 +40,17 @@
               <h1><strong>カラオケCATS</strong><br>TEL ○○○-○○○-○○○○</h1>
               <h2>AM9:00〜翌AM3:00</h2>
             </div>
-          
         </div>
       </div>
       <p class="drawer"></p>
     </header>
     <main>
-      <section class="corona_img section">
+      <section class="corona">
         <div class="inner">
           <div class="intro">
+            <div class="corona_img ">
+              <img src="/img/IMG_2364.jpg">
+            </div>
             <h2 class="section_ttl"><small></small>新型コロナウイルス感染症<br>に対する当店の対策</h2>
             <p class="intro_txt">
               お客様及び従業員の健康と安全を最優先に考慮し、感染症対策に積極的に取り組んでおります。そのため、お客様にもアルコール消毒、検温にご協力いただいております。
@@ -55,7 +60,10 @@
       </section>
       <section class="service">
         <div class="inner">
-          <h2>サービス</h2>
+          <h2 class="section_ttl"><small></small>サービス</h2>
+          <p class="service_txt">
+            お客様に楽しんでいただけるよう、以下のようなサービスを実施しております。
+          </p>
           <div class="service_all">
             <ul class="service_list">
               <li class="service_item _service1">
@@ -68,7 +76,7 @@
                 </div>
               </li>
               <li class="service_item _service2">
-                <div class="service_img _service"></div>
+                <div class="service_img _service2"></div>
                 <div class="service_inner_txt">
                   <h3>4本マイクルーム!</h3>
                   <p class="service_descript">
@@ -77,7 +85,7 @@
                 </div>
               </li>
               <li class="service_item _service3">
-                <div class="service_img _service"></div>
+                <div class="service_img _service3"></div>
                 <div class="service_inner_txt">
                   <h3>ミラーボール増設</h3>
                   <p class="service_descript">
@@ -86,7 +94,7 @@
                 </div>
               </li>
               <li class="service_item _service4">
-                <div class="service_img _service"></div>
+                <div class="service_img _service4"></div>
                 <div class="service_inner_txt">
                   <h3>禁煙ルーム</h3>
                   <p class="service_descript">
@@ -98,28 +106,51 @@
           </div>
         </div>
       </section>
-      <section class="news section">
-        <h3>News<br><small>お知らせ</small></h3>
+      <section class="news_section">
+        <h2 class="section_ttl"><small></small>お知らせ</h2>
+        <div class="news_all">
         <ul class="news_list">
-          <li>
-            〇〇〇〇.〇〇.〇〇　〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇
+          <li class="news_item">
+            <a href="html/news.html">
+              <div class="news_img">
+                <img src="img/IMG_2370.PNG" alt="ニュース画像">
+              </div>
+              <div class="news_txt">
+            <p class="news_ttl">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
+            <p class="news_date">〇〇〇〇.〇〇.〇〇</p>
+          </div>
+          </a>
           </li>
-          <li>
-            〇〇〇〇.〇〇.〇〇　〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇
+          <li class="news_item">
+            <a href="html/news.html">
+              <div class="news_img">
+                <img src="img/IMG_2370.PNG" alt="ニュース画像">
+              </div>
+              <div class="news_txt">
+                <p class="news_ttl">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
+                <p class="news_date">〇〇〇〇.〇〇.〇〇</p>
+              </div>
+            </a>
           </li>
-          <li>
-            〇〇〇〇.〇〇.〇〇　〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇
-          </li>
-          <li>
-            〇〇〇〇.〇〇.〇〇　〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇
+          <li class="news_item">
+            <a href="html/news.html">
+              <div class="news_img">
+                <img src="img/IMG_2370.PNG" alt="ニュース画像">
+              </div>
+              <div class="news_txt">
+                <p class="news_ttl">〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇</p>
+                <p class="news_date">〇〇〇〇.〇〇.〇〇</p>
+              </div>
+            </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer>
       <ul class="footer_list">
         <li class="footer_item">
-          <a href="html/index.html">HOME</a>
+          <a href="index.html">HOME</a>
         </li>
         <li class="footer_item">
           <a href="html/service.html">サービス</a>
@@ -130,8 +161,17 @@
         <li class="footer_item">
           <a href="html/detal.html">詳細・アクセス</a>
         </li>
+        <li class="footer_item">
+          <a href="html/news.html">お知らせ</a>
+        </li>
+        <li class="footer_item">
+          <a href="html/contact.html">お問い合わせ</a>
+        </li>
+
     </ul>
     <small class="footer_txt">Copyright©︎ 2021 カラオケCATS All Rights Reserved</small>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
   </body>
 </html>

@@ -1,0 +1,71 @@
+.price_section {
+  width: 80%;
+  margin: 5% auto ;
+  position: relative;
+}
+
+.price_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.price_wrapper table {
+  border: double #888888 10px;
+  width: 80%;
+  text-align: center;
+  background-color: #eee;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px "ddd";
+}
+
+.price_wrapper table tr {
+  border: solid #888888 3px;
+  padding: 1%;
+}
+
+.price_wrapper table th {
+  border: solid #888888 3px;
+  padding: 1%;
+}
+
+.price_wrapper table td {
+  border: solid #888888 3px;
+  padding: 1%;
+}
+
+.atention_section {
+  width: 80%;
+  margin: 5% auto ;
+  position: relative;
+}
+
+.atention_wrapper {
+  margin-left: 90px;
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #eee;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px "ddd";
+}
+
+.atention_wrapper ul {
+  list-style: none;
+}
+
+.atention_wrapper li {
+  line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+.atention_wrapper {
+  width: 100%;
+  margin: auto 0;
+}
+
+.price_wrapper table {
+  width: 100%;
+}
+
+}

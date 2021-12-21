@@ -1,0 +1,68 @@
+.detal_inner {
+  margin: 70px 5% 5% auto;
+  max-width: 90%;
+  position: relative;
+}
+
+.detal_list {
+  width: 80%;
+  margin: 0 auto 150px;
+  background-color: #eee;
+  padding: 10px;
+  -webkit-box-shadow: 10px 10px 20px #aaaaaa;
+  box-shadow: 10px 10px 20px #aaaaaa;
+  border: 1px solid #444;
+}
+
+.detal_list li {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.detal_list li span {
+  width: 20%;
+  margin-right: 3%;
+  padding: 0 0 30px 20px;
+  border-bottom: 1px solid #444;
+}
+
+.detal_list li p {
+  width: 80%;
+  padding: 0 0 30px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+  .about_acc_map {
+    width: 600px;
+    padding-right: 50px;
+  }
+
+@media screen and (max-width: 1024px) {
+  .detal_list li span {
+    width: 30%;
+  }
+
+  .about_acc_map {
+    width: 500px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+.detal_list li {
+  display: block;
+}
+
+.detal_list li span {
+  border-bottom: unset;
+}
+
+.detal_list li p {
+  line-height:1.5;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+}
