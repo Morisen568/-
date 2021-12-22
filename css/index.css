@@ -3,11 +3,7 @@
 .header_all {
   width: 100%;
   position: relative;
-}
-.header_inner {
-  width: 100%;
   background-color: orange;
-  display: inline-block;
 }
 
 .navbar ul {
@@ -49,15 +45,10 @@
   opacity: 0.5;
 }
 
-.top_title {
-  width: 100%;
-  position: absolute;
-  top: 15%;
-  left: 250px;
-}
+
 
 .top_title h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: #ff5f17;
   opacity: 1;
 }
@@ -338,34 +329,6 @@ header .logo {
 }
 
 @media screen and (max-width: 768px) {
-.inner {
-max-width: 95%;
-}
-
-.top_title {
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 10%;
-}
-
-.top_title h1 {
-  font-size: 30px;
-  color: #ff5f17;
-  opacity: 1;
-}
-
-.top_title h2 {
-  font-size: 20px;
-  color: #000;
-}
-
-.intro {
-  position: relative;
-  width: 100%;
-  margin-top: 200px;
-  margin-bottom: 500px;
-}
 
 .corona_img img{
   position: absolute;
@@ -382,13 +345,6 @@ max-width: 95%;
   font-size: 30px;
   color: #ff6699;
   opacity: 1;
-}
-
-  .top_title {
-  width: 100%;
-  position: absolute;
-  top: 15%;
-  left: 10%;
 }
 
 .top_title h1 {

@@ -1,12 +1,9 @@
 .header_all {
   width: 100%;
   position: relative;
-}
-.header_inner {
-  width: 100%;
   background-color: orange;
-  display: inline-block;
 }
+
 
 .navbar ul {
   width: 100%;
@@ -204,48 +201,6 @@ header .logo {
   width: 100%;
 }
 
-header .drawer {
-  visibility: visible;
-  width: 24px;
-  right: 10px;
-  top: 10px;
-  position: absolute;
-  border-top: solid 4px #aaaaaa;
-  cursor: pointer;
-  z-index: 100;
-}
-
-header .drawer::before,
-header .drawer::after {
-  content: "";
-  display: block;
-  width: 24px;
-  background: #aaaaaa;
-  height: 4px;
-  position: absolute;
-  right: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-header .drawer::before {
-  top: 6px;
-}
-
-header .drawer::after {
-  top: 15px;
-}
-
-header .header_inner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: none;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  background: #000;
-}
 
 }
 
