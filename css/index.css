@@ -52,7 +52,7 @@
 .top_title {
   width: 100%;
   position: absolute;
-  top: 40%;
+  top: 15%;
   left: 250px;
 }
 
@@ -387,7 +387,7 @@ max-width: 95%;
   .top_title {
   width: 100%;
   position: absolute;
-  top: 40%;
+  top: 15%;
   left: 10%;
 }
 

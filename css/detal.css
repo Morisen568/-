@@ -33,8 +33,18 @@
 }
 
   .about_acc_map {
-    width: 600px;
-    padding-right: 50px;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+
+  .about_acc_map iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
   }
 
 @media screen and (max-width: 1024px) {
@@ -43,8 +53,7 @@
   }
 
   .about_acc_map {
-    width: 500px;
-    padding-right: 50px;
+    padding-right: 500px;
   }
 }
 
@@ -61,6 +70,10 @@
 .detal_list li p {
   line-height:1.5;
 }
+
+  .about_acc_map {
+    padding-right: 200px;
+  }
 
 }
 
