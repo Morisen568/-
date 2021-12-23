@@ -45,10 +45,10 @@
 }
 
 .top_title {
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 40%;
-  left: 250px;
+  left: 230px;
 }
 
 .top_title h1 {
@@ -125,7 +125,12 @@ footer {
     max-width: 95%;
 }
 
-
+.top_title {
+  width: 80%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
 
 .intro {
   width: 100%;
@@ -170,7 +175,7 @@ header .logo {
 }
 
 .top_title {
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 40%;
   left: 10%;
@@ -204,6 +209,17 @@ header .logo {
 
 }
 
+@media screen and (max-width: 438px){
+
+.top_title h1 strong {
+  font-size: 30px;
+  color: #ff6699;
+  opacity: 1;
+}
+
+}
+
+
 @media screen and (max-width: 375px){
 
 .top_title h1 strong {
@@ -213,7 +229,7 @@ header .logo {
 }
 
   .top_title {
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 40%;
   left: 10%;
