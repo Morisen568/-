@@ -114,18 +114,18 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 .service_img2::after {
   content: "";
   position: absolute;
-  width: 130%;
-  height: 500px;
+  width: 100%;
+  height: 300px;
 }
 
 .service_img2._service {
-  background: url(../img/IMG_2374.jpg) no-repeat;
+  background: url(../img/IMG_2385.PNG) no-repeat;
   background-size: cover;
   z-index: -1;
   width: 100%;
@@ -133,7 +133,7 @@
 }
 
 .service_img2._service2 {
-  background: url(../img/JOYSOUND-MAX2.jpeg) no-repeat;
+  background: url(../img/IMG_2386.PNG) no-repeat;
   background-size: cover;
   z-index: -1;
   width: 100%;
@@ -141,7 +141,7 @@
 }
 
 .service_img2._service3 {
-  background: url(../img/livedam_ai.png) no-repeat;
+  background: url(../img/IMG_2388.PNG) no-repeat;
   background-size: cover;
   z-index: -1;
   width: 100%;
@@ -149,7 +149,7 @@
 }
 
 .service_img2._service4 {
-  background: url(../img/livedam_ss.png) no-repeat;
+  background: url(../img/IMG_2387.PNG) no-repeat;
   background-size: cover;
   z-index: -1;
   width: 100%;
@@ -159,7 +159,7 @@
 .service_item3 {
   position: relative;
   width: 44%;
-  height: 500px;
+  height: 400px;
   overflow: hidden;
   -webkit-box-shadow: 10px 10px 20px #aaaaaa;
   box-shadow: 10px 10px 20px "ddd";
@@ -190,23 +190,30 @@
   display: block;
 }
 
-
 .service_item._service1,
 .service_item._service2,
 .service_item._service3,
 .service_item._service4 {
   bottom: 0;
   margin: 0 auto 10%;
+
 }
 
 .service_item2 {
-  width: 100%;
-  height: 600px;
+  width: 600px;
+  height: 450px;
+
 }
 
 .service_item3 {
-  width: 105%;
-  height: 800px;
+  width: 600px;
+  height: 450px;
+}
+
+
+
+.service_item3._service4 {
+  margin-right: 0;
 }
 
 .service_item2._service1,
@@ -217,21 +224,46 @@
   margin: 0 auto 10%;
 }
 
-
-
 }
 
 @media screen and (max-width: 768px) {
 
 .service_item2 {
-  width: 105%;
-  height: 500px;
+  width: 400px;
+  height: 300px;
 }
 
 .service_item3 {
-  width: 105%;
-  height: 600px;
+  width: 400px;
+  height: 300px;
 }
+}
+
+@media screen and (max-width: 558px) {
+
+.service_item2 {
+  width: 350px;
+  height: 255px;
+}
+
+.service_item3 {
+  width: 350px;
+  height: 255px;
+}
+}
+
+@media screen and (max-width: 438px){
+
+.service_item2 {
+  width: 320px;
+  height: 240px;
+}
+
+.service_item3 {
+  width: 320px;
+  height: 240px;
+}
+
 }
 
 @media screen and (max-width: 375px){
@@ -247,6 +279,16 @@
 
 .service_img::after {
   left: 65%;
+}
+
+.service_item2 {
+  width: 200px;
+  height: 150px;
+}
+
+.service_item3 {
+  width: 200px;
+  height: 150px;
 }
 
 }

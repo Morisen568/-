@@ -33,10 +33,9 @@
 }
 
   .about_acc_map {
-    height: 0;
-    overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
+    padding-right: 600px;
   }
 
   .about_acc_map iframe {
